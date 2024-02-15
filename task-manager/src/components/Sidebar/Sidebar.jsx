@@ -1,11 +1,11 @@
 import React from "react";
 
 const Sidebar = () => {
-    return (
-        <>
-            <section className="based-container w-[20%] h-full"></section>
-        </>
-    );
+  return (
+    <>
+      <aside className="based-container w-[20%] h-full"></aside>
+    </>
+  );
 };
 
 export default Sidebar;

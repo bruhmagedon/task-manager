@@ -1,9 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* кастомные стили */
 @layer components {
-    .based-container {
-        @apply flex items-center justify-center;
-    }
+  .based-container {
+    @apply flex items-center justify-center;
+  }
+  .gradient-h1 {
+    background: linear-gradient(
+      270deg,
+      rgb(56, 59, 129),
+      rgba(82, 86, 185, 0.94)
+    );
+    background-clip: text; /*фон накладывается на цвет*/
+    color: transparent; /*прозрачный цвет текста (чтоб фон наложился)*/
+  }
+}
+
+/* базовые стили  */
+@layer base {
+  html {
+    font-family: "Roboto", system-ui, sans-serif;
+  }
+}
+
+/* утилиты */
+@layer utilities {
+  .scrollbar-no::-webkit-scrollbar {
+    display: none;
+  }
 }
