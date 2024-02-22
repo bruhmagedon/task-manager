@@ -1,4 +1,4 @@
-const Edit = ({ color = "#1D1F1D" }) => {
+const Edit = () => {
   return (
     <>
       <svg

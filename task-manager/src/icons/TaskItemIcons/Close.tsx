@@ -1,4 +1,4 @@
-const Close = ({ color = "#1D1F1D" }) => {
+const Close = () => {
   return (
     <>
       <svg
