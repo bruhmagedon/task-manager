@@ -18,6 +18,14 @@
     background-clip: text; /*фон накладывается на цвет*/
     color: transparent; /*прозрачный цвет текста (чтоб фон наложился)*/
   }
+
+  .icon-hover {
+    @apply hover:bg-[#ABAEEE] hover:bg-opacity-25 rounded-2xl p-[3px] transition-colors duration-300;
+  }
+
+  .action-buttons {
+    @apply px-[15px] py-[10px] rounded-full shadow h-full  gap-[10px] cursor-pointer hover:shadow-gray-400 hover:shadow-sm flex items-center;
+  }
 }
 
 /* базовые стили  */
