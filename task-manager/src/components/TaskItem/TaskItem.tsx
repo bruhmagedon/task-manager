@@ -1,4 +1,3 @@
-import React from "react";
 import CheckMark from "../../icons/TaskItemIcons/CheckMark";
 import Edit from "../../icons/TaskItemIcons/Edit";
 import Close from "../../icons/TaskItemIcons/Close";

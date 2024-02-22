@@ -1,4 +1,3 @@
-import React from "react";
 import Add from "../../icons/ActionPanelIcons/Add";
 import Find from "../../icons/ActionPanelIcons/Find";
 import Filter from "../../icons/ActionPanelIcons/Filter";
@@ -14,7 +13,10 @@ const ActionPanel = () => {
         </div>
         <div className="action-buttons">
           <Find />
-          <input placeholder="Поиск задачи" />
+          <input
+            className="focus:outline-0 font-medium placeholder:font-normal"
+            placeholder="Поиск задачи"
+          />
         </div>
         <div className="action-buttons">
           <Sort />
