@@ -3,8 +3,10 @@ import Find from "../../icons/ActionPanelIcons/Find";
 import Filter from "../../icons/ActionPanelIcons/Filter";
 import Sort from "../../icons/ActionPanelIcons/Sort";
 import DropDown from "../../icons/ActionPanelIcons/DropDown";
+import { useTask } from "../../context/TaskContext";
 
 const ActionPanel = () => {
+  const data = useTask();
   return (
     <>
       <div className="w-full h-[9.5%] px-[18px] py-[5px] shrink-0 flex justify-between items-center gap-[25px]">
